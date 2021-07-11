@@ -1,0 +1,177 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Caveat:wght@521&family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  color: #555753;
+  line-height: 1.7;
+  background-image: url(https://i.pinimg.com/564x/74/20/2e/74202ecbc54c0779074bf3dbe126d36d.jpg);
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  text-align: justify;
+}
+
+h3 {
+  font: italic Georgia, sans-serif;
+  color: #BB371A;
+  letter-spacing: 1.5px;
+}
+
+div {
+  letter-spacing: 0.3px;
+}
+
+a:link, a:visited {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #064420;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+  color: #EBA83A;
+}
+
+.page-wrapper {
+  padding: 0 175px 0 175px;
+  margin: 0;
+}
+
+header {
+  font-family: "Averia Libre", cursive;
+  text-align: center;
+  background: #29BB89;
+  border-radius: 1em;
+  border-bottom: 7px solid #F38BA0;
+  transition: all 1.5s;
+}
+header h1 {
+  color: #E6DD3B;
+  margin-bottom: -20px;
+  font-size: 60px;
+}
+header h2 {
+  color: #D2E69C;
+  font-size: 20px;
+}
+
+.summary {
+  margin-top: 50px;
+}
+.summary a {
+  text-align: center;
+  width: 78px;
+  display: inline-block;
+  background-color: #FFBCBC;
+  border: none;
+  border-radius: 3em;
+}
+.summary a:link, .summary a:visited {
+  text-decoration: none;
+  color: #D83A56;
+}
+.summary a:hover, .summary a:active {
+  text-decoration: none;
+  color: #1EAE98;
+  background-color: #D2E69C;
+}
+
+.benefits {
+  text-align: left;
+  clear: both;
+  margin: 3px 20px 3px 0;
+  width: 28%;
+  float: left;
+  border-style: outset;
+  border-width: 18px 8px 18px 8px;
+  border-color: #D5DBB3 #D5DBB3 #D5DBB3 #D5DBB3;
+  border-radius: 8px;
+  padding: 0 10px 0 10px;
+}
+
+[role=contentinfo] {
+  margin-top: 90px;
+  color: #BB371A;
+  font-weight: bold;
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+}
+[role=contentinfo] a:link, [role=contentinfo] a:visited {
+  text-decoration: underline;
+  color: #A0937D;
+}
+[role=contentinfo] a:hover, [role=contentinfo] a:active {
+  text-decoration: none;
+  color: #1EAE98;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s;
+  margin: 50px 0 80px 0;
+}
+footer a:link, footer a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #BB371A;
+}
+footer a:hover, footer a:active {
+  text-decoration: none;
+  color: #1EAE98;
+}
+
+footer a {
+  width: 155px;
+  color: #F9F9F9;
+  background-color: #CDF0EA;
+  border: none;
+  border-radius: 3em;
+  box-shadow: 0 9px #1EAE98;
+  margin: 3px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+footer a:after {
+  content: "»";
+  position: absolute;
+  right: 15px;
+  transition: 0.5s;
+}
+
+footer a:hover {
+  background-color: #F3C583;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 60px 0;
+}
+.wrapper h3 {
+  text-align: center;
+}
+.wrapper .design-selection {
+  background-color: #D5DBB3;
+  padding-right: 20px;
+}
+.wrapper .design-archives {
+  background-color: #D5DBB3;
+  padding-right: 20px;
+}
+.wrapper .zen-resources {
+  background-color: #D5DBB3;
+  padding-right: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

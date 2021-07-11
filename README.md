@@ -1,8 +1,8 @@
 # CSS Zen Garden: The Beauty of CSS Design
 
-> [Your name]
+> กานต์รวี วารินทร์ศิริกุล
 >  
-> [Your ID]
+> 6210402348
 
 ## Task
 
